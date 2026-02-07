@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Álbum da Aranha - Olhos que Capturam Momentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="webCanvas"></canvas>
+    
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="spider-loader">
+                <div class="spider-body"></div>
+                <div class="spider-legs"></div>
+            </div>
+            <p>Tecendo as teias...</p>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="web-overlay"></div>
+        <div class="header-content">
+            <div class="spider-icon">🕷️</div>
+            <h1 class="main-title">ÁLBUM DA ARANHA</h1>
+            <p class="subtitle">Olhos que capturam momentos como teias capturam a luz</p>
+            <div class="header-meta">
+                <span>Por: Paulo</span>
+                <span class="separator">🕸️</span>
+                <span>Com muito carinho</span>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="web-scroll">↓</div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro-section">
+            <h2 class="intro-title">Com grandes sorrisos, vêm grandes responsabilidades... de fazer todo mundo rir junto</h2>
+            <div class="stats-grid">
+                <div class="stat-card" data-aos="fade-up">
+                    <div class="stat-icon">✨</div>
+                    <div class="stat-number">8</div>
+                    <div class="stat-label">Momentos Capturados</div>
+                </div>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-icon">🎵</div>
+                    <div class="stat-number">8</div>
+                    <div class="stat-label">Músicas Perfeitas</div>
+                </div>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-icon">💫</div>
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Vibes Incríveis</div>
+                </div>
+            </div>
+        </section>
+
+        <div class="photo-gallery">
+
+            <!-- Foto 1 -->
+            <article class="photo-card" data-aos="fade-up">
+                <div class="photo-number">01</div>
+                <div class="photo-wrapper">
+                    <img src="imagens/WhatsApp Image 2026-02-06 at 13.28.50.jpeg" alt="O Sorrisão com Franjinha" loading="lazy">
+                </div>
+                <div class="photo-info">
+                    <h2 class="photo-title">O Sorrisão com Franjinha</h2>
+                    <div class="photo-details">
+                        <p class="personal-note">Loirinha do tchan com esse sorrisão</p>
+                        <div class="music-quote">
+                            <div class="vinyl-icon">🎵</div>
+                            <div class="quote-text">
+                                <span class="quote-line">"Você é linda demais"</span>
+                                <span class="quote-artist">Djavan</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Foto 2 -->
+            <article class="photo-card" data-aos="fade-up">
+                <svg class="web-connector" viewBox="0 0 200 100" preserveAspectRatio="none">
+                    <line x1="100" y1="0" x2="50" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <line x1="100" y1="0" x2="150" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <line x1="50" y1="100" x2="150" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <circle cx="100" cy="0" r="5" fill="var(--spider-red)"/>
+                    <circle cx="50" cy="100" r="5" fill="var(--spider-red)"/>
+                    <circle cx="150" cy="100" r="5" fill="var(--spider-red)"/>
+                </svg>
+                <div class="photo-number">02</div>
+                <div class="photo-wrapper">
+                    <img src="imagens/WhatsApp Image 2026-02-06 at 13.28.50 (1).jpeg" alt="O MEU DEUS DO CÉU" loading="lazy">
+                </div>
+                <div class="photo-info">
+                    <h2 class="photo-title">O "MEU DEUS DO CÉU"</h2>
+                    <div class="photo-details">
+                        <p class="personal-note">Meme pronto, expressão perfeita</p>
+                        <div class="music-quote">
+                            <div class="vinyl-icon">🎵</div>
+                            <div class="quote-text">
+                                <span class="quote-line">"Tudo vai ficar bem"</span>
+                                <span class="quote-artist">Three Little Birds — Bob Marley</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Foto 3 -->
+            <article class="photo-card" data-aos="fade-up">
+                <svg class="web-connector" viewBox="0 0 200 100" preserveAspectRatio="none">
+                    <line x1="100" y1="0" x2="50" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <line x1="100" y1="0" x2="150" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <line x1="50" y1="100" x2="150" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <circle cx="100" cy="0" r="5" fill="var(--spider-red)"/>
+                    <circle cx="50" cy="100" r="5" fill="var(--spider-red)"/>
+                    <circle cx="150" cy="100" r="5" fill="var(--spider-red)"/>
+                </svg>
+                <div class="photo-number">03</div>
+                <div class="photo-wrapper">
+                    <img src="imagens/WhatsApp Image 2026-02-06 at 13.28.50 (2).jpeg" alt="A Pose com Sorrisinho" loading="lazy">
+                </div>
+                <div class="photo-info">
+                    <h2 class="photo-title">A Pose com Sorrisinho</h2>
+                    <div class="photo-details">
+                        <p class="personal-note">Sorrisinho maroto, olhar que mata</p>
+                        <div class="music-quote">
+                            <div class="vinyl-icon">🎵</div>
+                            <div class="quote-text">
+                                <span class="quote-line">"Cheia de graça"</span>
+                                <span class="quote-artist">Garota de Ipanema — Tom Jobim</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Foto 4 -->
+            <article class="photo-card" data-aos="fade-up">
+                <svg class="web-connector" viewBox="0 0 200 100" preserveAspectRatio="none">
+                    <line x1="100" y1="0" x2="50" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <line x1="100" y1="0" x2="150" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <line x1="50" y1="100" x2="150" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <circle cx="100" cy="0" r="5" fill="var(--spider-red)"/>
+                    <circle cx="50" cy="100" r="5" fill="var(--spider-red)"/>
+                    <circle cx="150" cy="100" r="5" fill="var(--spider-red)"/>
+                </svg>
+                <div class="photo-number">04</div>
+                <div class="photo-wrapper">
+                    <img src="imagens/WhatsApp Image 2026-02-06 at 13.28.51.jpeg" alt="O Sofá (Modo Turbo)" loading="lazy">
+                </div>
+                <div class="photo-info">
+                    <h2 class="photo-title">O Sofá (Modo Turbo)</h2>
+                    <div class="photo-details">
+                        <p class="personal-note">Risada contagiante, energia pura</p>
+                        <div class="music-quote">
+                            <div class="vinyl-icon">🎵</div>
+                            <div class="quote-text">
+                                <span class="quote-line">"Aqui vem o sol"</span>
+                                <span class="quote-artist">Here Comes the Sun — The Beatles</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Foto 5 -->
+            <article class="photo-card" data-aos="fade-up">
+                <svg class="web-connector" viewBox="0 0 200 100" preserveAspectRatio="none">
+                    <line x1="100" y1="0" x2="50" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <line x1="100" y1="0" x2="150" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <line x1="50" y1="100" x2="150" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <circle cx="100" cy="0" r="5" fill="var(--spider-red)"/>
+                    <circle cx="50" cy="100" r="5" fill="var(--spider-red)"/>
+                    <circle cx="150" cy="100" r="5" fill="var(--spider-red)"/>
+                </svg>
+                <div class="photo-number">05</div>
+                <div class="photo-wrapper">
+                    <img src="imagens/WhatsApp Image 2026-02-06 at 13.28.51 (1).jpeg" alt="O Trio de Bebê" loading="lazy">
+                </div>
+                <div class="photo-info">
+                    <h2 class="photo-title">O Trio de Bebê (Pack de Expressões)</h2>
+                    <div class="photo-details">
+                        <p class="personal-note">Três ângulos, três vibes, uma gata só</p>
+                        <div class="music-quote">
+                            <div class="vinyl-icon">🎵</div>
+                            <div class="quote-text">
+                                <span class="quote-line">"Ela arrasa"</span>
+                                <span class="quote-artist">Bang — Anitta</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Foto 6 -->
+            <article class="photo-card" data-aos="fade-up">
+                <svg class="web-connector" viewBox="0 0 200 100" preserveAspectRatio="none">
+                    <line x1="100" y1="0" x2="50" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <line x1="100" y1="0" x2="150" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <line x1="50" y1="100" x2="150" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <circle cx="100" cy="0" r="5" fill="var(--spider-red)"/>
+                    <circle cx="50" cy="100" r="5" fill="var(--spider-red)"/>
+                    <circle cx="150" cy="100" r="5" fill="var(--spider-red)"/>
+                </svg>
+                <div class="photo-number">06</div>
+                <div class="photo-wrapper">
+                    <img src="imagens/WhatsApp Image 2026-02-06 at 13.29.39.jpeg" alt="A Carinha Séria" loading="lazy">
+                </div>
+                <div class="photo-info">
+                    <h2 class="photo-title">A Carinha Séria (O Juiz da Resenha)</h2>
+                    <div class="photo-details">
+                        <p class="personal-note">Olhos claros que hipnotizam</p>
+                        <div class="music-quote">
+                            <div class="vinyl-icon">🎵</div>
+                            <div class="quote-text">
+                                <span class="quote-line">"Olhos que fascinam"</span>
+                                <span class="quote-artist">Olhos Coloridos — Sandra de Sá</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Foto 7 -->
+            <article class="photo-card" data-aos="fade-up">
+                <svg class="web-connector" viewBox="0 0 200 100" preserveAspectRatio="none">
+                    <line x1="100" y1="0" x2="50" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <line x1="100" y1="0" x2="150" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <line x1="50" y1="100" x2="150" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <circle cx="100" cy="0" r="5" fill="var(--spider-red)"/>
+                    <circle cx="50" cy="100" r="5" fill="var(--spider-red)"/>
+                    <circle cx="150" cy="100" r="5" fill="var(--spider-red)"/>
+                </svg>
+                <div class="photo-number">07</div>
+                <div class="photo-wrapper">
+                    <img src="imagens/WhatsApp Image 2026-02-06 at 20.16.52.jpeg" alt="A Blusa Listrada" loading="lazy">
+                </div>
+                <div class="photo-info">
+                    <h2 class="photo-title">A Blusa Listrada (Triplicada)</h2>
+                    <div class="photo-details">
+                        <p class="personal-note">Sorriso que ilumina, bochechas rosadas</p>
+                        <div class="music-quote">
+                            <div class="vinyl-icon">🎵</div>
+                            <div class="quote-text">
+                                <span class="quote-line">"Linda demais"</span>
+                                <span class="quote-artist">Você é Demais — Caetano Veloso</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Foto 8 -->
+            <article class="photo-card" data-aos="fade-up">
+                <svg class="web-connector" viewBox="0 0 200 100" preserveAspectRatio="none">
+                    <line x1="100" y1="0" x2="50" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <line x1="100" y1="0" x2="150" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <line x1="50" y1="100" x2="150" y2="100" stroke="var(--spider-red)" stroke-width="2"/>
+                    <circle cx="100" cy="0" r="5" fill="var(--spider-red)"/>
+                    <circle cx="50" cy="100" r="5" fill="var(--spider-red)"/>
+                    <circle cx="150" cy="100" r="5" fill="var(--spider-red)"/>
+                </svg>
+                <div class="photo-number">08</div>
+                <div class="photo-wrapper">
+                    <img src="imagens/WhatsApp Image 2026-02-06 at 20.16.52 (1).jpeg" alt="A Luz Amarela com Roxo" loading="lazy">
+                </div>
+                <div class="photo-info">
+                    <h2 class="photo-title">A Luz Amarela com Roxo (Foto de Filme)</h2>
+                    <div class="photo-details">
+                        <p class="personal-note">Estética de cinema, perfil de modelo</p>
+                        <div class="music-quote">
+                            <div class="vinyl-icon">🎵</div>
+                            <div class="quote-text">
+                                <span class="quote-line">"Tão perigosa"</span>
+                                <span class="quote-artist">Menina Veneno — Ritchie</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <section class="conclusion-section" data-aos="fade-up">
+            <div class="spider-web-bg"></div>
+            <h2 class="section-title">O Que Essas Fotos Dizem</h2>
+            <div class="personal-conclusion">
+                <p>Cada foto mostra um traço diferente. Tem o sorriso largo, os olhos claros que mudam de expressão, as bochechas que marcam quando você ri, o perfil delicado.</p>
+                <p>É tipo as teias do Homem-Aranha — cada fio é único, mas juntos formam algo completo. Aqui é a mesma coisa: cada foto captura um detalhe, e no final você vê a pessoa toda.</p>
+            </div>
+            <div class="spider-signature">
+                <p class="signature-name">— Paulo</p>
+                <div class="spider-icon-small">🕷️</div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="web-footer"></div>
+            <p>"Com grandes sorrisos, vêm grandes responsabilidades de fazer todo mundo feliz"</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
